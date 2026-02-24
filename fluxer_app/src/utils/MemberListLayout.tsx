@@ -40,6 +40,7 @@ export function buildMemberListLayout(groups: ReadonlyArray<MemberListGroupSnaps
 
 	for (const group of groups) {
 		if (group.count <= 0) {
+			rowIndex += 1;
 			continue;
 		}
 
